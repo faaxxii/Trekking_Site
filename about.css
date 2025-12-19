@@ -1,0 +1,118 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling with background image */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: url('https://media.istockphoto.com/id/1369654070/de/foto/junges-paar-mit-dem-rucksack-auf-einen-berggipfel.jpg?s=1024x1024&w=is&k=20&c=9VMavUlqqcuoDund_mGTG0B8nFjgXmPtokkbboCJyIU=') no-repeat center center fixed;
+    background-size: cover; /* Ensure the image covers the entire background */
+    padding: 20px;
+}
+
+/* Container for content */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: #333; /* Text color for readability */
+}
+
+/* Heading styles */
+.container h1 {
+    font-family: 'Pacifico', cursive; /* Apply Pacifico font */
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2c3e50;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border-bottom: none; /* Remove bottom border */
+}
+
+.container h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    border-bottom: 1px solid #2c3e50;
+    padding-bottom: 5px;
+    color: #2c3e50;
+}
+
+.container h3 {
+    font-size: 1.2em;
+    margin-top: 15px;
+    color: #4b6584;
+}
+
+/* Paragraph styles */
+.container p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Profiles */
+.profiles {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.profile {
+    width: 30%;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h3 {
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+.profile p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #fcb69f; /* Adjust hover background color */
+}

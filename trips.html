@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recent Trips - Trekking Club</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="trips.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Trekking</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Recent Trips</h1>
+        
+        <!-- Trip 1 -->
+        <div class="trip">
+            <img src="https://media.istockphoto.com/id/1130964201/de/foto/nepal-paar-und-der-eissee-mit-blick-auf-die-annapurna-kette.jpg?s=1024x1024&w=is&k=20&c=0HzGvh1ZvC03-lALjdiQEPvn7aZRedlTRfS8h0qDT60=" alt="Trip 1">
+            <h3>Trip to Himalayas</h3>
+            <p>Explore the majestic Himalayan mountains with our experienced guides. Enjoy breathtaking views and unforgettable trekking experiences.</p>
+        </div>
+        
+        <!-- Trip 2 -->
+        <div class="trip">
+            <img src="https://images.unsplash.com/photo-1495613455702-836d1327ebc6?q=80&w=1968&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Trip 2">
+            <h3>Sunset Ridge Trek</h3>
+            <p>Experience the thrill of conquering the Sunset Ridge trek. Witness mesmerizing sunsets and panoramic views of valleys and peaks.</p>
+        </div>
+        
+        <!-- Trip 3 -->
+        <div class="trip">
+            <img src="https://media.istockphoto.com/id/1336252513/de/foto/liebevolles-junges-paar-das-spa%C3%9F-im-freien-hat.jpg?s=1024x1024&w=is&k=20&c=t-DljWBiSIqFWMXV1DM8SpTaH4qrjIkBQtShTPLipJU=" alt="Trip 3">
+            <h3>Valley View Expedition</h3>
+            <p>Embark on an expedition to explore beautiful valleys and lush landscapes. Connect with nature on this enriching trekking journey.</p>
+        </div>
+        
+        <!-- Trip 4 -->
+        <div class="trip">
+            <img src="https://media.istockphoto.com/id/1223716894/de/foto/zwei-frauen-fahren-mit-elektro-mountainbikes-grasbewachsenen-hang-hinauf.jpg?s=1024x1024&w=is&k=20&c=Ck7VJ0GNg6dSTbqBXRhyX1BjcJDd9TpHe32TRjgmv3E=" alt="Trip 4">
+            <h3>Mountain Trail Adventure</h3>
+            <p>Embark on a thrilling adventure along rugged mountain trails. Experience the thrill of trekking and discover hidden wonders.</p>
+        </div>
+        
+        <!-- Trip 5 -->
+        <div class="trip">
+            <img src="https://media.istockphoto.com/id/1050380090/de/foto/freeride-skifahrer-laden-hinunter-durch-den-wald-in-frischen-pulverschnee-k%C3%BChtai-%C3%B6sterreich.jpg?s=1024x1024&w=is&k=20&c=JotpmkgrKx27lF6hlkxLzJZ3i48s3eVTlL6CNmTOS0k=" alt="Trip 5">
+            <h3>Alpine Adventure</h3>
+            <p>Join our alpine adventure and explore the picturesque landscapes. Discover remote trails and enjoy the beauty of untouched nature.</p>
+        </div>
+
+        <!-- Trip 6 -->
+        <div class="trip">
+            <img src="https://media.istockphoto.com/id/184155366/de/foto/bergsteiger-auf-einem-steilen-mountain-ridge.jpg?s=1024x1024&w=is&k=20&c=MzhwWO5_MsavlL7Fh8yj1b5xh0w761LbKbXsCvNY1kw=" alt="Trip 6">
+            <h3>Snowy Mountain Expedition</h3>
+            <p>Embark on a snowy mountain expedition. Experience the pristine beauty of snow-covered peaks and serene landscapes.</p>
+        </div>
+        
+        <!-- Book Button and Form -->
+        <div class="book-button">
+            <label for="showBookingForm" class="book-link">Book Your Trip</label>
+            <input type="checkbox" id="showBookingForm" class="booking-checkbox">
+            <div class="booking-form">
+                <h2>Booking Form</h2>
+                <form action="submit_booking.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="contact">Contact:</label>
+                    <input type="text" id="contact" name="contact" required>
+                    <label for="destination">Destination:</label>
+                    <input type="text" id="destination" name="destination" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

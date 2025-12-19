@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #333;
+}
+
+.trip {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f0f0f0;
+    border-radius: 8px;
+}
+
+.trip img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.trip h3 {
+    margin-top: 10px;
+}
+
+.trip p {
+    color: #666;
+}
+
+.book-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.book-link {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.booking-checkbox {
+    display: none;
+}
+
+.booking-form {
+    display: none;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-checkbox:checked ~ .booking-form {
+    display: block;
+}
+
+.booking-form h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.booking-form form {
+    margin-top: 10px;
+}
+
+.booking-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="email"],
+.booking-form textarea,
+.booking-form button {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.booking-form button {
+    display: block;
+    margin: 10px auto 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.booking-form button:hover {
+    background-color: #0056b3;
+}

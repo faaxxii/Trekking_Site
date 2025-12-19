@@ -1,0 +1,95 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling with background image */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: url('https://media.istockphoto.com/id/1369654070/de/foto/junges-paar-mit-dem-rucksack-auf-einen-berggipfel.jpg?s=1024x1024&w=is&k=20&c=9VMavUlqqcuoDund_mGTG0B8nFjgXmPtokkbboCJyIU=') no-repeat center center fixed;
+    background-size: cover; /* Ensure the image covers the entire background */
+    padding: 20px;
+}
+
+/* Container for content */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading styles */
+.container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2c3e50;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 10px;
+}
+
+.container h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    border-bottom: 1px solid #2c3e50;
+    padding-bottom: 5px;
+    color: #2c3e50;
+}
+
+.container p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Contact details styling */
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.contact-details > div {
+    width: calc(33.33% - 20px);
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-details h2 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.contact-details p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 0;
+}
+
+/* Map container styling */
+.map-container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.map-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
